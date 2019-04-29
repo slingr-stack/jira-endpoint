@@ -1,0 +1,15 @@
+{
+  "timestamp": 1433535341939,
+  "webhookEvent": "jira:version_released",
+  "version": {
+    "self": "https://slingrdev.atlassian.net/rest/api/2/version/17502",
+    "id": "17502",
+    "description": "",
+    "name": "v1.0.1",
+    "archived": false,
+    "released": true,
+    "overdue": false,
+    "userReleaseDate": "05/Jun/15",
+    "projectId": 10800
+  }
+}

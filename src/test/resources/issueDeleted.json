@@ -1,0 +1,238 @@
+{
+  "timestamp": 1433539547259,
+  "webhookEvent": "jira:issue_deleted",
+  "user": {
+    "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=dgaviola",
+    "name": "dgaviola",
+    "key": "dgaviola",
+    "emailAddress": "dgaviola@slingr.io",
+    "avatarUrls": {
+      "48x48": "https://slingrdev.atlassian.net/secure/useravatar?ownerId=dgaviola&avatarId=11200",
+      "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&ownerId=dgaviola&avatarId=11200",
+      "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&ownerId=dgaviola&avatarId=11200",
+      "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&ownerId=dgaviola&avatarId=11200"
+    },
+    "displayName": "Diego Gaviola",
+    "active": true,
+    "timeZone": "America/Denver"
+  },
+  "issue": {
+    "id": "19753",
+    "self": "https://slingrdev.atlassian.net/rest/api/2/issue/19753",
+    "key": "TEST-34",
+    "fields": {
+      "issuetype": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/issuetype/1",
+        "id": "1",
+        "description": "A problem which impairs or prevents the functions of the product.",
+        "iconUrl": "https://slingrdev.atlassian.net/images/icons/issuetypes/bug.png",
+        "name": "Bug",
+        "subtask": false
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/project/10800",
+        "id": "10800",
+        "key": "TEST",
+        "name": "Test",
+        "avatarUrls": {
+          "48x48": "https://slingrdev.atlassian.net/secure/projectavatar?avatarId=10011",
+          "24x24": "https://slingrdev.atlassian.net/secure/projectavatar?size=small&avatarId=10011",
+          "16x16": "https://slingrdev.atlassian.net/secure/projectavatar?size=xsmall&avatarId=10011",
+          "32x32": "https://slingrdev.atlassian.net/secure/projectavatar?size=medium&avatarId=10011"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10500": null,
+      "customfield_10501": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2015-06-05T15:25:47.241-0600",
+      "watches": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/issue/TEST-34/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2015-06-05T15:22:36.219-0600",
+      "customfield_10020": null,
+      "customfield_10021": "Not Started",
+      "priority": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/priority/4",
+        "iconUrl": "https://slingrdev.atlassian.net/images/icons/priorities/minor.png",
+        "name": "Minor",
+        "id": "4"
+      },
+      "customfield_10100": null,
+      "customfield_10300": null,
+      "labels": [
+        "label1",
+        "label2",
+        "label3"
+      ],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": null,
+      "customfield_10019": null,
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=test",
+        "name": "test",
+        "key": "test",
+        "emailAddress": "test@slingr.io",
+        "avatarUrls": {
+          "48x48": "https://slingrdev.atlassian.net/secure/useravatar?avatarId=10122",
+          "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&avatarId=10122",
+          "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&avatarId=10122",
+          "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&avatarId=10122"
+        },
+        "displayName": "Test User",
+        "active": true,
+        "timeZone": "America/Denver"
+      },
+      "updated": "2015-06-05T15:25:03.147-0600",
+      "status": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/status/10004",
+        "description": "",
+        "iconUrl": "https://slingrdev.atlassian.net/images/icons/subtask.gif",
+        "name": "Backlog",
+        "id": "10004",
+        "statusCategory": {
+          "self": "https://slingrdev.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [
+        {
+          "self": "https://slingrdev.atlassian.net/rest/api/2/component/10300",
+          "id": "10300",
+          "name": "Client Side"
+        }
+      ],
+      "timeoriginalestimate": null,
+      "description": "*test issue*\r\n\r\n* item 1\r\n* item 2\r\n* item 3",
+      "customfield_10012": null,
+      "customfield_10013": null,
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "timetracking": {},
+      "customfield_10006": "9223372036854775807",
+      "customfield_10007": null,
+      "customfield_10601": null,
+      "customfield_10008": null,
+      "attachment": [],
+      "aggregatetimeestimate": null,
+      "summary": "test issue",
+      "creator": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=dgaviola",
+        "name": "dgaviola",
+        "key": "dgaviola",
+        "emailAddress": "dgaviola@slingr.io",
+        "avatarUrls": {
+          "48x48": "https://slingrdev.atlassian.net/secure/useravatar?ownerId=dgaviola&avatarId=11200",
+          "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&ownerId=dgaviola&avatarId=11200",
+          "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&ownerId=dgaviola&avatarId=11200",
+          "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&ownerId=dgaviola&avatarId=11200"
+        },
+        "displayName": "Diego Gaviola",
+        "active": true,
+        "timeZone": "America/Denver"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=dgaviola",
+        "name": "dgaviola",
+        "key": "dgaviola",
+        "emailAddress": "dgaviola@slingr.io",
+        "avatarUrls": {
+          "48x48": "https://slingrdev.atlassian.net/secure/useravatar?ownerId=dgaviola&avatarId=11200",
+          "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&ownerId=dgaviola&avatarId=11200",
+          "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&ownerId=dgaviola&avatarId=11200",
+          "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&ownerId=dgaviola&avatarId=11200"
+        },
+        "displayName": "Diego Gaviola",
+        "active": true,
+        "timeZone": "America/Denver"
+      },
+      "customfield_10000": null,
+      "aggregateprogress": {
+        "progress": 0,
+        "total": 0
+      },
+      "customfield_10001": null,
+      "customfield_10200": "0|ii08gf:",
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "customfield_10400": null,
+      "environment": null,
+      "duedate": null,
+      "progress": {
+        "progress": 0,
+        "total": 0
+      },
+      "comment": {
+        "startAt": 0,
+        "maxResults": 1,
+        "total": 1,
+        "comments": [
+          {
+            "self": "https://slingrdev.atlassian.net/rest/api/2/issue/19753/comment/19322",
+            "id": "19322",
+            "author": {
+              "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=dgaviola",
+              "name": "dgaviola",
+              "key": "dgaviola",
+              "emailAddress": "dgaviola@slingr.io",
+              "avatarUrls": {
+                "48x48": "https://slingrdev.atlassian.net/secure/useravatar?ownerId=dgaviola&avatarId=11200",
+                "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&ownerId=dgaviola&avatarId=11200",
+                "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&ownerId=dgaviola&avatarId=11200",
+                "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&ownerId=dgaviola&avatarId=11200"
+              },
+              "displayName": "Diego Gaviola",
+              "active": true,
+              "timeZone": "America/Denver"
+            },
+            "body": "*test comment*",
+            "updateAuthor": {
+              "self": "https://slingrdev.atlassian.net/rest/api/2/user?username=dgaviola",
+              "name": "dgaviola",
+              "key": "dgaviola",
+              "emailAddress": "dgaviola@slingr.io",
+              "avatarUrls": {
+                "48x48": "https://slingrdev.atlassian.net/secure/useravatar?ownerId=dgaviola&avatarId=11200",
+                "24x24": "https://slingrdev.atlassian.net/secure/useravatar?size=small&ownerId=dgaviola&avatarId=11200",
+                "16x16": "https://slingrdev.atlassian.net/secure/useravatar?size=xsmall&ownerId=dgaviola&avatarId=11200",
+                "32x32": "https://slingrdev.atlassian.net/secure/useravatar?size=medium&ownerId=dgaviola&avatarId=11200"
+              },
+              "displayName": "Diego Gaviola",
+              "active": true,
+              "timeZone": "America/Denver"
+            },
+            "created": "2015-06-05T15:25:03.140-0600",
+            "updated": "2015-06-05T15:25:03.140-0600"
+          }
+        ]
+      },
+      "votes": {
+        "self": "https://slingrdev.atlassian.net/rest/api/2/issue/TEST-34/votes",
+        "votes": 0,
+        "hasVoted": false
+      },
+      "worklog": {
+        "startAt": 0,
+        "maxResults": 20,
+        "total": 0,
+        "worklogs": []
+      }
+    }
+  }
+}

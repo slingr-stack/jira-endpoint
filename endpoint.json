@@ -1,0 +1,130 @@
+{
+    "label": "JIRA",
+    "name": "jira",
+    "apiVersion": "v1",
+    "internal": true,
+    "configurationType": "GLOBAL",
+    "deployment": {
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ],
+        "allowMultipleInstances": false
+    },
+    "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/jira.png",
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [
+        {
+            "label": "Issue Created",
+            "name": "issueCreated",
+            "description": "Happens when a new issue is created."
+        },
+        {
+            "label": "Issue Updated",
+            "name": "issueUpdated",
+            "description": "The issue has been updated. Any change will trigger this event."
+        },
+        {
+            "label": "Issue Deleted",
+            "name": "issueDeleted"
+        },
+        {
+            "label": "Comment Created",
+            "name": "commentCreated"
+        },
+        {
+            "label": "Version Released",
+            "name": "versionReleased"
+        }
+    ],
+    "functions": [
+        {
+            "label": "Find issue",
+            "name": "findIssue",
+            "description": "Finds an issue by key"
+        },
+        {
+            "label": "Find issues",
+            "name": "findIssues",
+            "description": "Finds issues using JQL"
+        },
+        {
+            "label": "Create issue",
+            "name": "createIssue",
+            "description": "Creates an issue or a sub-task from a JSON representation."
+        },
+        {
+            "label": "Update issue",
+            "name": "updateIssue",
+            "description": "Updates an existing issue"
+        },
+        {
+            "label": "Add comment",
+            "name": "addComment",
+            "description": "Adds a comment to an existing issue"
+        },
+        {
+            "label": "Do transition",
+            "name": "doTransition",
+            "description": "Performs a transition on an issue"
+        },
+        {
+            "label": "Delete issue",
+            "name": "deleteIssue",
+            "description": "Delete an existing issue"
+        },
+        {
+            "label": "Server Info",
+            "name": "serverInfo"
+        }
+    ],
+    "configuration":[
+        {
+            "name": "username",
+            "label": "Username",
+            "description": "JIRA username or email",
+            "type": "text",
+            "required": true
+        },
+        {
+            "name": "password",
+            "label": "Password",
+            "description": "JIRA user's password",
+            "type": "password",
+            "required": true
+        },
+        {
+            "name": "jiraUrl",
+            "label": "JIRA REST URL",
+            "description": "This is the host of your JIRA instance. For example, 'https://company.jira.com'.",
+            "type": "text",
+            "required": true
+        },
+        {
+            "name": "webhook",
+            "label": "Webhook URL",
+            "type": "label",
+            "value": "@config.WEBHOOK_URL"
+        },
+        {
+            "name": "important",
+            "label": "Important!",
+            "value": "You need to enable API access to your JIRA instance.",
+            "type": "info",
+            "typeOptions": {
+                "alertType": "warning"
+            }
+        },
+        {
+            "name": "config",
+            "label": "Configuration",
+            "value": "You will need to configure a webhook in JIRA using the URL indicated above in the field 'Webhook URL'.",
+            "type": "info"
+        }
+    ]
+}
